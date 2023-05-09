@@ -11,4 +11,19 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 100%);
+    max-width: 20rem;
+    border-radius: 10px;
+}
+
+.text {
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 15rem; 
+    padding: 10px;
 }
