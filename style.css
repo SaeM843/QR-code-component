@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding-bottom: 35px;
 }
 
 .card {
@@ -18,21 +21,14 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    max-width: 20rem;
-    border-radius: 10px;
+    max-width: 20em;
+    height: 31em;
+    border-radius: 15px;
 }
 
-.text {
-    padding: 5px;
-
-}
-
-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.qr-img {
     width: 100%;
     max-width: 15rem; 
-    padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
