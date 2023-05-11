@@ -10,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 35px;
 }
 
 .card {
@@ -19,26 +18,25 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    max-width: 20em;
+    max-width: 18em;
     height: 31em;
     border-radius: 15px;
+    padding: 0px 10px 0px 10px;
 }
 
 .qr-img {
-    width: 100%;
     max-width: 15rem; 
     border-radius: 15px;
-    margin-bottom: 15px;
+    margin: 0px 0px 9px 0px;
 }
 
 .qr-heading {
     color: hsl(218, 44%, 22%);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
     line-height: 1.74rem;
     align-self: center;
-    padding: 0 20px;
-    
+    padding: 0 5px;
 }
 
 .qr-description {
