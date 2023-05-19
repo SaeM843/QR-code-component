@@ -3,29 +3,25 @@
 }
 
 body {
+    margin: 0;
     background-color: hsl(212, 45%, 89%);
     font-size: 15px;
     font-family: "Outfit", sans-serif;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 16px;
     background-color: hsl(0, 0%, 100%);
-    max-width: 18em;
-    height: 31em;
     border-radius: 15px;
-    padding: 0px 10px 0px 10px;
+    width: 250px;
 }
 
 .qr-img {
-    max-width: 15rem; 
+    max-width: 100%; 
     border-radius: 15px;
     margin: 0px 0px 9px 0px;
 }
@@ -40,7 +36,7 @@ body {
 }
 
 .qr-description {
-    color: hsl(212, 45%, 89%);
+    color:  hsl(220, 15%, 55%);
     text-align: center;
     padding: 0 30px;
     font-size: 0.95rem;
